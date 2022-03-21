@@ -50,7 +50,7 @@ img {
     margin-right: auto;
 }
 img:hover {
-
+    transform: scale(1.025);
 }
 h1 {
     text-align: left;
