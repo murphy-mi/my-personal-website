@@ -1,8 +1,8 @@
-html {
+* {
     font-family: Arial, Helvetica, sans-serif;
 }
 body {
-    background: #D8DAD3;
+    background-image: linear-gradient(to bottom right, #cacdc3,#fbfbfb);
 }
 ul {
     list-style-type: none;
@@ -23,12 +23,6 @@ li {
     color:#566246
 }
 
-li:hover {
-    color: #D8DAD3;
-    background-color: #566246;
-    cursor: pointer;
-}
-
 p {
      /* box-shadow: 10px 10px #4A4A48;
      background-color: #F1F2EB; */
@@ -37,20 +31,29 @@ p {
      font-size: 1.2em;
      color: #4A4A48;
 }
-
 div {
     box-shadow: 10px 10px #4A4A48;
     background-color: #F1F2EB;
     padding: 20px 0px 20px 0px;
     margin: 10px 20px 0px 20px;
 }
-img {
+
+#pig {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-img:hover {
+.mouseOver {
+    transition: all .2s ease-in-out;
+}
+#pig:hover {
     transform: scale(1.025);
+}
+li:hover {
+    color: #D8DAD3;
+    background-color: #566246;
+    cursor: pointer;
+    transform: scale(1.08);
 }
 h1 {
     text-align: left;
