@@ -12,7 +12,7 @@ const img = document.getElementById("pig");
 
 // Alert for clicking pig img
 img.addEventListener('click', function () {
-    alert("You clicked the pig...");
+    alert("You clicked the pig");
 });
 
 // // move the pig img around the screen
